@@ -1,0 +1,5 @@
+if(EXISTS "/media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/tests/Calibration/calibration_ut[1]_tests.cmake")
+  include("/media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/tests/Calibration/calibration_ut[1]_tests.cmake")
+else()
+  add_test(calibration_ut_NOT_BUILT calibration_ut_NOT_BUILT)
+endif()

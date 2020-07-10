@@ -1,0 +1,3 @@
+add_test( azure_c_shared_threading.ThreadAPI /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/azure_c_shared_test [==[--gtest_filter=azure_c_shared_threading.ThreadAPI]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:TEST-azure_c_shared_test.xml]==])
+set_tests_properties( azure_c_shared_threading.ThreadAPI PROPERTIES WORKING_DIRECTORY /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/. LABELS unit ENVIRONMENT [==[K4A_LOG_LEVEL=I]==] ENVIRONMENT [==[K4A_ENABLE_LOG_TO_STDOUT=1]==])
+set( azure_c_shared_test_TESTS azure_c_shared_threading.ThreadAPI)

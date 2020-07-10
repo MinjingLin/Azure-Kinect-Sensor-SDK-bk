@@ -1,0 +1,5 @@
+if(EXISTS "/media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/tests/executables/executables_ft_custom[1]_tests.cmake")
+  include("/media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/tests/executables/executables_ft_custom[1]_tests.cmake")
+else()
+  add_test(executables_ft_custom_NOT_BUILT executables_ft_custom_NOT_BUILT)
+endif()

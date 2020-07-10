@@ -1,0 +1,5 @@
+if(EXISTS "/media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/tests/ExternLibraries/azure_c_shared/azure_c_shared_test[1]_tests.cmake")
+  include("/media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/tests/ExternLibraries/azure_c_shared/azure_c_shared_test[1]_tests.cmake")
+else()
+  add_test(azure_c_shared_test_NOT_BUILT azure_c_shared_test_NOT_BUILT)
+endif()

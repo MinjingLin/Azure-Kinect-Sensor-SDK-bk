@@ -1,0 +1,7 @@
+add_test( imu_ut.create /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/imu_ut [==[--gtest_filter=imu_ut.create]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:TEST-imu_ut.xml]==])
+set_tests_properties( imu_ut.create PROPERTIES WORKING_DIRECTORY /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/. LABELS unit ENVIRONMENT [==[K4A_LOG_LEVEL=I]==] ENVIRONMENT [==[K4A_ENABLE_LOG_TO_STDOUT=1]==])
+add_test( imu_ut.start /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/imu_ut [==[--gtest_filter=imu_ut.start]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:TEST-imu_ut.xml]==])
+set_tests_properties( imu_ut.start PROPERTIES WORKING_DIRECTORY /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/. LABELS unit ENVIRONMENT [==[K4A_LOG_LEVEL=I]==] ENVIRONMENT [==[K4A_ENABLE_LOG_TO_STDOUT=1]==])
+add_test( imu_ut.get_sample /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/imu_ut [==[--gtest_filter=imu_ut.get_sample]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:TEST-imu_ut.xml]==])
+set_tests_properties( imu_ut.get_sample PROPERTIES WORKING_DIRECTORY /media/min/d84b4767-6283-4b67-89ca-ed3fc4849fd5/azurekinect/Azure-Kinect-Sensor-SDK/build/bin/. LABELS unit ENVIRONMENT [==[K4A_LOG_LEVEL=I]==] ENVIRONMENT [==[K4A_ENABLE_LOG_TO_STDOUT=1]==])
+set( imu_ut_TESTS imu_ut.create imu_ut.start imu_ut.get_sample)
