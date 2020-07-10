@@ -1,6 +1,8 @@
 # Azure-Kinect-Sensor-SDK-bk
 fork by https://github.com/microsoft/Azure-Kinect-Sensor-SDK
+
 version1.3.0
+
 install in ubuntu18.04 refer https://tianyusong.com/2019/11/13/how-to-install-azure-kinect-sdk-on-ubuntu-16-04/
 
 1. Download the SDK from repo:
